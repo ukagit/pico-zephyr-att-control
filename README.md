@@ -1,4 +1,4 @@
-# pico-zephyr-att-control — 0.1.3
+# pico-zephyr-att-control — 0.1.4
 
 Erster Firmware-Entwurf für Ulrich / DL2DBG: Weinschel-Engineering-Dämpfer
 über GPIO steuern. Zielboard **Raspberry Pi Pico W (2022), RP2040,
@@ -204,3 +204,16 @@ oder unbestätigter Eingabe bleiben die Eingaben erhalten; Istwert, Balken und
 GPIO-Tabelle aktualisieren sich weiter. Der Statusknopf synchronisiert auch
 den Sollwert ausdrücklich. Während Schaltanfragen wird das Polling übersprungen,
 in versteckten Tabs pausiert es. Keine zusätzlichen POSTs durch Polling.
+
+
+## Bilder
+
+### Weboberfläche
+![HamLab Attenuator Weboberfläche](docs/images/HamLab%20Attenuator.png)
+
+### Hardwareaufbau
+![Pico W mit Dämpfersteuerung](docs/images/pico_pi_att_hw.jpeg)
+
+### Aufbau im Gehäuse
+![Dämpfersteuerung im Gehäuse](docs/images/pico_pic_att_hw_box.jpeg)
+
